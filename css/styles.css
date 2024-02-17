@@ -1,0 +1,183 @@
+
+html{
+
+
+    font : italic small-caps bold 20px/1.5 Verdana, Arial, Helvetica, sans-serif ;
+    font-variant : normal;
+    font-style : normal;
+    font-family : monospace;
+        
+}
+body{
+   
+    width : 100%; 
+    height: 100%;
+    max-width : 1200px;
+    max-height : 1200px;
+    margin : auto; 
+    padding : 1.0rem;
+}
+
+h1, h2{
+
+font-variant : small-caps bold;
+
+
+}
+
+figcaption{
+
+font : italic small-caps bold 20px/1.5 Verdana, Arial, Helvetica, sans-serif ;
+font-variant : small-caps;
+font-size: large;
+
+padding : 1.0rem;
+
+}
+
+q{
+    font-style : italic;
+    font-family : cursive;
+    font-size: large;
+    
+    padding: 1.40rem;
+}
+
+footer p{
+
+font-size: small;
+padding : 1.0rem;
+
+ 
+}
+
+.main-section-figure img {
+width : 700px;
+height : 700px;
+padding : all;
+padding : 1.0rem;
+
+border-radius: 2.0rem;
+}
+
+
+.figure{
+
+    height: 70%;
+    width: 70%;
+    padding: all 1.0rem;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+iframe{
+
+    width: 95%;
+    height: 100%;
+    height: 35em;
+    
+
+    border: 1rem solid rgba(0, 174, 243);
+    border-radius: 1.0rem;
+
+}
+/* Note for teacher: In the instructions you told use to change the border color of the video twice with two different methods. -Aiden*/
+iframe{ 
+
+    border: 1rem solid #0AF;
+    border-radius: 1.0rem;
+
+
+}
+
+header, footer{
+
+    text-align: center;
+    border : 1rem solid #0015BC;
+}
+
+section{
+    text-align: center;
+    padding : all 1.0rem;
+}
+
+#bio{
+
+text-align: left;
+
+}
+
+#quo{
+
+    padding: all 1.0rem;
+
+    border: 1rem solid #00F;
+    border-radius: 1.0rem;
+
+    box-shadow: 10px 10px;
+    box-shadow: 10px 10px rgb(0, 20, 147);
+    box-shadow: 10px 10px 5px rgb(0, 20, 147);
+    box-shadow: 10px 10px 5px 12px rgb(0, 20, 147);
+}
+
+
+#realtive-path-image{
+
+    border: 1rem solid rgb(255, 0, 0);
+    border-radius: 1.0rem;
+
+}
+
+ #absolute-path-image{
+
+    border: 1rem solid rgb(0, 174, 243);
+    border-radius: 1.0rem;
+
+
+
+ }
+
+
+#realtive-path-image figcaption{
+
+color: rgb(255, 0, 0);
+
+
+}
+
+#absolute-path-image figcaption{
+
+    color: rgb(0, 174, 243);
+    
+    
+    }
+
+h1, h2{
+    color: darkblue;
+}
+
+header, footer{
+
+    background-image: linear-gradient(rgb(255, 0, 0) , rgb(220, 220, 220) , rgb(0, 174, 243) );
+}
+
+{
+    background-color: hsla(41, 100%, 93.1%, 1);
+}
+
+#absolute-path-image{
+background-color: hsla(192, 35%, 84.1%, 1);
+
+}
+
+#realtive-path-image{
+    background-color: hsla(0, 100%, 89.1%, 1);
+}
+
+body{
+
+    background-color: hsla(41, 100%, 93.1%, 1);
+
+}
+
